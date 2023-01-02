@@ -53,6 +53,6 @@ module PWM
 		end
 	end
 
-	assign wave = p_w;
+	assign wave = w;
 
 endmodule
