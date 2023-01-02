@@ -19,7 +19,7 @@ PWM by default +1 both the ARR value and CCR value. **So set (ARR - 1)/(CCR - 1)
 > CCR = 100 and ARR = 1000, since 100 is 10% of 1000 
 > Set ``CCR = (100 - 1)`` and ``ARR = (1000 - 1)``
 >
-## MAKEFILE<br>
+## Makefile<br>
 Make commands<br>
 Compiles ***PWM.sv*** and ***tb.sv*** with **iverilog** and creates a simulation file ***sim.vvp***.
 ```
