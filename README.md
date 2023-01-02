@@ -21,19 +21,18 @@ PWM by default +1 both the ARR value and CCR value. **So set (ARR - 1)/(CCR - 1)
 >
 ## MAKEFILE<br>
 Make commands<br>
-```
-make build
-```
 Compiles ***PWM.sv*** and ***tb.sv*** with **iverilog** and creates a simulation file ***sim.vvp***.
 ```
-make verify
+make build
 ```
 Simulates the ***sim.vvp*** and dumps the signals and variables into ***dump.vcd*** and runs
 the ***dump.vcd*** with **gtkwave**.
 ```
-make clean
+make verify
 ```
 Removes the ***sim.vvp*** and ***dump.vcd*** files that were created.<br>
+```
+make clean
+```
 ## Simulation Results
-
-
+![GTKwave Simulation!](/img/gtk_sim.png "GTKwave simulation")
