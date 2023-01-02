@@ -11,6 +11,6 @@ verify: $(sim)
 	gtkwave $(dump)
 
 clean: $(sim) $(dump)
-	rm -f $(sum) $(dump)
+	rm -f $(sim) $(dump)
 
 .PHONY: test verify clean
