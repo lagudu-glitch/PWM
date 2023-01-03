@@ -1,4 +1,4 @@
-# PULSE WIDTH MODULATOR (PWM)<br>
+# PULSE WIDTH MODULATOR (PWM) (NOT THE LAEST README)<br>
 Produces a digital waveform (i.e. either 0 or 1), with a specific duty cycle. PWM starts high
 and goes low when the c (count) value of the counter present in the PWM is equal to the CCR value
 set by the user. Counter counts to the maximum ARR (set by the user) value.<br>
